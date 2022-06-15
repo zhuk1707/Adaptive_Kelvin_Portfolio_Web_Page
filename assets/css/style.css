@@ -1,0 +1,182 @@
+@import "reset.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #121212;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.title-1 {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 51px;
+}
+
+/*Header*/
+.header {
+    padding-top: 46px;
+    background-color: #f1f1f1;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    margin-bottom: 76px;
+}
+
+
+/*Logo*/
+.logo {
+    position: relative;
+
+    padding: 0 12px 3px 0;
+
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1;
+    color: #121212;
+}
+
+.logo::after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    content: "";
+    display: block;
+    background-color: #fda300;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+}
+
+
+/*Nav*/
+
+.nav-list {
+    display: flex;
+    column-gap: 50px;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #121212;
+
+    transition: color .1s linear;
+}
+
+.nav-link:hover {
+    color: #606060;
+}
+
+
+/*Header row*/
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.header-content {
+    max-width: 500px;
+
+    margin-top: 124px;
+}
+
+.header-heading {
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 66px;
+
+    margin-bottom: 20px;
+}
+
+.header-desc {
+    font-weight: 400;
+    line-height: 200%;
+}
+
+
+/*Services*/
+.services {
+    margin: 90px 0 90px 0;
+}
+
+.services-row {
+    display: flex;
+    column-gap: 30px;
+}
+
+.service-card {
+    max-width: 370px;
+}
+
+.service-card-image {
+    margin-bottom: 30px;
+}
+
+.card-title {
+    text-transform: uppercase;
+
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+
+    margin-bottom: 10px;
+}
+
+.card-desc {
+    font-weight: 400;
+    line-height: 200%;
+}
+
+
+/*Portfolio*/
+.portfolio {
+    background-color: #f1f1f1;
+    padding: 90px 0;
+}
+
+.portfolio-title {
+    text-align: center;
+    margin-bottom: 70px ;
+}
+
+.portfolio-item {
+    text-align: center;
+}
+
+.portfolio-item+.portfolio-item {
+    margin-top: 90px;
+}
+
+.portfolio-image {
+    margin-bottom: 40px;
+}
+
+.portfolio-item-title {
+    text-decoration: underline;
+}
+
+.portfolio-item-title a{
+    color: #121212;
+
+    transition: color .1s linear;
+}
+
+.portfolio-item-title a:hover {
+    color: #606060;
+}
+
+
+/*contact*/
