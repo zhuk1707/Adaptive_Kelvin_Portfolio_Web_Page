@@ -1,82 +1,83 @@
 @media screen and (max-width: 770px) {
-/*Nav*/
+    /*Nav*/
     .nav-list {
         visibility: hidden;
     }
-}
+
+    /*Header*/
+    .header {
+        padding-top: 40px;
+    }
+
+    .header-nav {
+        margin-bottom: 0;
+    }
+
+    .header-row {
+        flex-direction: column;
+    }
+
+    .header-content {
+        margin-top: 50px;
+    }
+
+    .header-desc {
+        margin-bottom: 20px;
+    }
+
+    /*Services*/
+    .services {
+        margin: 60px 0;
+    }
+
+    .services-row {
+        flex-direction: column;
+        row-gap: 60px;
+    }
+
+    .service-card {
+        max-width: 740px;
+    }
 
 
-/*Header*/
-.header {
-    padding-top: 40px;
-}
+    /*Portfolio*/
+    .portfolio {
+        padding: 60px 0;
+    }
 
-.header-nav {
-    margin-bottom: 0;
-}
+    .portfolio-title {
+        margin-bottom: 50px;
+    }
 
-.header-row {
-    flex-direction: column;
-}
+    .portfolio-item+.portfolio-item {
+        margin-top: 55px;
+    }
 
-.header-content {
-    margin-top: 50px;
-}
-
-.header-desc {
-    margin-bottom: 20px;
-}
-
-/*Services*/
-.services {
-    margin: 60px 0;
-}
-
-.services-row {
-    flex-direction: column;
-    row-gap: 60px;
-}
-
-.service-card {
-    /*max-width: 740px;*/
-}
+    .portfolio-image {
+        margin-bottom: 30px;
+    }
 
 
-/*Portfolio*/
-.portfolio {
-    padding: 60px 0;
-}
+    /*Contacts*/
+    .contacts {
+        margin: 60px 0;
+    }
 
-.portfolio-title {
-    margin-bottom: 50px;
-}
+    .contacts-title{
+        margin-bottom: 20px;
+    }
 
-.portfolio-item+.portfolio-item {
-    margin-top: 55px;
-}
+    .contacts-content {
+        margin-bottom: 20px;
+    }
 
-.portfolio-image {
-    margin-bottom: 30px;
-}
+    .contacts-button {
+        margin-bottom: 70px;
+    }
+
+    .contacts-social {
+        margin: 0 auto 20px;
+    }
+}/*770px*/
 
 
-/*Contacts*/
-.contacts {
-    margin: 60px 0;
-}
-
-.contacts-title{
-    margin-bottom: 20px;
-}
-
-.contacts-content {
-    margin-bottom: 20px;
-}
-
-.contacts-button {
-    margin-bottom: 70px;
-}
-
-.contacts-social {
-    margin: 0 auto 20px;
-}
