@@ -5,6 +5,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
+    font-weight: 400;
     color: #121212;
 }
 
@@ -12,6 +13,29 @@ body {
     max-width: 1230px;
     padding: 0 30px;
     margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 7px 22px;
+    border-radius: 42px;
+    background-color: #121212;
+
+    font-size: 18px;
+    color: white;
+
+    transition: background-color .2s ease;
+}
+
+.btn:hover, .btn:focus {
+    background-color: #606060;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+
+    background-color: #121212;
 }
 
 .title-1 {
@@ -73,6 +97,10 @@ body {
     color: #121212;
 
     transition: color .1s linear;
+}
+
+.nav-link.active {
+    color: #606060;
 }
 
 .nav-link:hover {
@@ -179,4 +207,68 @@ body {
 }
 
 
-/*contact*/
+/*Contacts*/
+.contacts {
+    margin: 90px 0;
+    text-align: center;
+
+}
+
+.contacts-title{
+    margin-bottom: 40px;
+}
+
+.contacts-content {
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.contacts-content p+p {
+    margin-top: 1em;
+}
+
+.contacts-button {
+    margin-bottom: 80px;
+}
+
+.contacts-social {
+    margin: 0 auto 40px;
+    max-width: 342px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.contacts-social-link {
+    transition: opacity .2s linear;
+}
+
+.contacts-social-link:hover {
+    opacity: .6;
+}
+
+.contacts-social-link:active {
+    opacity: 1;
+    transform: translateY(1px);
+}
+
+.contacts-footer {
+    font-size: 14px;
+    line-height: 21px;
+    color: #828282;
+}
+
+
+
+
+
+
+
+
+
+
+
+
