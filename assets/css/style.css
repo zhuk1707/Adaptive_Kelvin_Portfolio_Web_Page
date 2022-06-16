@@ -108,7 +108,7 @@ body {
 }
 
 
-/*Header row*/
+/*Header*/
 .header-row {
     display: flex;
     justify-content: space-between;

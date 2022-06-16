@@ -1,0 +1,63 @@
+@media screen and (max-width: 770px) {
+/*Nav*/
+    .nav-list {
+        visibility: hidden;
+    }
+}
+
+
+/*Header*/
+.header {
+    padding-top: 40px;
+}
+
+.header-nav {
+    margin-bottom: 0;
+}
+
+.header-row {
+    flex-direction: column;
+}
+
+.header-content {
+    margin-top: 50px;
+}
+
+.header-desc {
+    margin-bottom: 20px;
+}
+
+/*Services*/
+.services {
+    margin: 60px 0;
+}
+
+.services-row {
+    flex-direction: column;
+    row-gap: 60px;
+}
+
+.service-card {
+    /*max-width: 740px;*/
+}
+
+
+/*Portfolio*/
+.portfolio {
+    padding: 60px 0;
+}
+
+.portfolio-title {
+    margin-bottom: 50px;
+}
+
+.portfolio-item+.portfolio-item {
+    margin-top: 55px;
+}
+
+.portfolio-image {
+    margin-bottom: 30px;
+}
+
+
+/*Contacts*/
