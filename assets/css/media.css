@@ -1,8 +1,48 @@
 @media screen and (max-width: 770px) {
     /*Nav*/
     .nav-list {
-        visibility: hidden;
+        display: none;
     }
+
+    .nav-link {
+        color: #606060;
+    }
+
+    .nav-link:hover {
+        color: #121212;
+    }
+
+    .nav-link.active {
+        color: #121212;
+    }
+
+    .nav-btn {
+        display: block;
+
+        position: fixed;
+        z-index: 2;
+        top: 46px;
+        right: 30px;
+    }
+
+    .nav.open .nav-list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        background-color: white;
+
+        font-size: 34px;
+        font-weight: 600;
+        padding: 46px 30px;
+    }
+
 
     /*Header*/
     .header {

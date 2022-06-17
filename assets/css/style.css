@@ -107,6 +107,15 @@ body {
     color: #606060;
 }
 
+.nav-btn {
+    display: none;
+
+    transition: opacity .2s linear;
+}
+
+.nav-btn:hover {
+    opacity: .6;
+}
 
 /*Header*/
 .header-row {

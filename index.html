@@ -7,6 +7,11 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/media.css">
+
+    <!--Animate on scroll library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+          integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
@@ -15,7 +20,7 @@
 
         <div class="header-nav">
             <a href="#" class="logo">Kelvin</a>
-            <nav class="nav">
+            <nav id="nav" class="nav">
                 <ul class="nav-list">
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Home</a></li>
@@ -28,22 +33,27 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a></li>
                 </ul>
+                
+                <button id="nav-btn" class="nav-btn">
+                    <img id="nav-btn-img" src="assets/images/icons/nav_open.svg"
+                         alt="Nav Button">
+                </button>
             </nav>
         </div><!--/.header-nav-->
 
         <div class="header-row">
-            <div class="header-content">
+            <div class="header-content" data-aos="fade-up">
                 <h1 class="header-heading">
                     Kelvin Kramer <br> Designer & Developer
                 </h1>
                 <p class="header-desc">
                     I’m a portrait, fashion and lifestyle photographer
-                    living In New York City. During my thirteen year
+                    living In New York City. During my thirteen-year
                     tenure here.
                 </p>
             </div>
 
-            <div class="header-image">
+            <div class="header-image" data-aos="fade-left">
                 <img src="assets/images/header/hero.png"
                      alt="Hero Image">
             </div>
@@ -55,8 +65,8 @@
 <section class="services">
     <div class="container">
 
-        <div class="services-row">
-            <div class="service-card">
+        <div class="services-row" >
+            <div class="service-card" data-aos="fade-up">
                 <img class="service-card-image"
                      src="assets/images/services/01.svg"
                      alt="Service Image">
@@ -66,7 +76,7 @@
                     built on latest development standards.</p>
             </div><!--/.service-card-->
 
-            <div class="service-card">
+            <div class="service-card" data-aos="fade-up">
                 <img class="service-card-image"
                      src="assets/images/services/02.svg"
                      alt="Service Image">
@@ -76,7 +86,7 @@
                     built on latest development standards.</p>
             </div><!--/.service-card-->
 
-            <div class="service-card">
+            <div class="service-card" data-aos="fade-up">
                 <img class="service-card-image"
                      src="assets/images/services/03.svg"
                      alt="Service Image">
@@ -96,7 +106,7 @@
             <h2 class="title-1">Portfolio</h2>
         </div>
         
-        <div class="portfolio-item">
+        <div class="portfolio-item" data-aos="flip-up">
             <img class="portfolio-image"
                  src="assets/images/portfolio/01.png" 
                  alt="Portfolio Image">
@@ -105,7 +115,7 @@
             </h3>
         </div>
 
-        <div class="portfolio-item">
+        <div class="portfolio-item" data-aos="flip-up">
             <img class="portfolio-image"
                  src="assets/images/portfolio/02.png"
                  alt="Portfolio Image">
@@ -114,7 +124,7 @@
             </h3>
         </div>
 
-        <div class="portfolio-item">
+        <div class="portfolio-item" data-aos="flip-up">
             <img class="portfolio-image"
                  src="assets/images/portfolio/03.png"
                  alt="Portfolio Image">
@@ -131,16 +141,16 @@
         <div class="contacts-title">
             <h2 class="title-1">Contacts</h2>
         </div>
-        <div class="contacts-content">
+        <div class="contacts-content" data-aos="fade-up">
             <p>Want to know more or just chat?<br>
                 You are welcome!</p>
         </div><!--/.contacts-content-->
 
-        <div class="contacts-button">
+        <div class="contacts-button" data-aos="fade-up">
             <a href="#!" class="btn">Send message</a>
         </div>
 
-        <div class="contacts-social">
+        <div class="contacts-social" data-aos="zoom-in">
             <a href="#!" class="contacts-social-link">
                 <img src="assets/images/socials/LinkedIn.svg"
                      alt="LinkedIn">
@@ -159,7 +169,7 @@
             </a>
         </div><!--/.contacts-social-->
 
-        <div class="contacts-footer">
+        <div class="contacts-footer" data-aos="fade-up">
             Like me on <br>
             LinkedIn, Instagram, Behance, Dribble
         </div>
@@ -177,8 +187,10 @@
 
 
 
-
-
+<!--Animate on scroll library-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+        integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="assets/js/main.js"></script>
 </body>
 </html>
